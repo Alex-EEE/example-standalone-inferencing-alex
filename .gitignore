@@ -3,3 +3,4 @@ build/
 utensor-model/
 deploy.zip
 *.o
+.vscode
