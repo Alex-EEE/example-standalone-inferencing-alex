@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/edge-impulse-standalone",
-            "args": ["calc.5c.txt"],
+            "args": ["../features.txt"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build",
             "environment": [],
