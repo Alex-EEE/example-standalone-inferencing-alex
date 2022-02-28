@@ -5,8 +5,7 @@ CXX ?= g++
 
 CFLAGS += -Wall -g -DTF_LITE_DISABLE_X86_NEON=1 -DEI_CLASSIFIER_ENABLE_DETECTION_POSTPROCESS_OP=1 -Wno-strict-aliasing
 CFLAGS += -I.
-CFLAGS += -Os
-CFLAGS += -DNDEBUG
+CFLAGS += -Og
 CFLAGS += -g
 CXXFLAGS += -std=c++14
 LDFLAGS += -lm -lstdc++
